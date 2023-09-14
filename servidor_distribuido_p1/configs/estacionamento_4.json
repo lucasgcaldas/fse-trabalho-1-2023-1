@@ -1,0 +1,66 @@
+{
+    "host_servidor_central": "localhost",
+    "port_servidor_central": 10971,
+    "host": "localhost",
+    "port": 10972,
+    "nome": "Estacionamento 4 - Piso 1",
+    "outputs": [
+        {
+            "type": "endereco",
+            "tag": "ENDERECO_01",
+            "gpio": 26
+        },
+        {
+            "type": "endereco",
+            "tag": "ENDERECO_02",
+            "gpio": 19
+        },
+        {
+            "type": "endereco",
+            "tag": "ENDERECO_03",
+            "gpio": 12
+        },
+        {
+            "type": "led",
+            "tag": "SINAL_DE_LOTADO_FECHADO",
+            "gpio": 6
+        },
+        {
+            "type": "motor",
+            "tag": "MOTOR_CANCELA_ENTRADA",
+            "gpio": 5
+        },
+        {
+            "type": "motor",
+            "tag": "MOTOR_CANCELA_SAIDA",
+            "gpio": 0
+        }
+    ],
+    "inputs": [
+        {
+            "type": "sensor-vaga",
+            "tag": "SENSOR_DE_VAGA",
+            "gpio": 9
+        },
+        {
+            "type": "sensor-cancela",
+            "tag": "SENSOR_ABERTURA_CANCELA_ENTRADA",
+            "gpio": 10
+        },
+        {
+            "type": "sensor-cancela",
+            "tag": "SENSOR_FECHAMENTO_CANCELA_ENTRADA",
+            "gpio": 22
+        },
+        {
+            "type": "sensor-cancela",
+            "tag": "SENSOR_ABERTURA_CANCELA_SAIDA",
+            "gpio": 27
+        },
+        {
+            "type": "sensor-cancela",
+            "tag": "SENSOR_FECHAMENTO_CANCELA_SAIDA",
+            "gpio": 17
+        }
+    ]
+}
